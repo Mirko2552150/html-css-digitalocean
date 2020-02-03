@@ -116,6 +116,7 @@ header {
     border: 1px solid black;
     border-radius: 5px;
     width: 400px;
+    margin-left: 176px;
 }
 
 .credenziali {
@@ -182,4 +183,80 @@ header {
 .formfirst h2 {
     font-weight: bold;
     color: #031b4e;
+}
+
+/*  NB NB NB NB ROW GRAY */
+
+#dim {
+    width: 135px;
+    height: 77px;
+}
+
+#splunk {
+    margin-top: 12px;
+    width: 160px;
+    height: 50px;
+}
+
+#github {
+    width: 125px;
+    height: 77px;
+}
+
+.quattro {
+    padding: 40px;
+
+}
+
+.third {
+    padding: 40px;
+}
+
+.gray {
+    background-color: #f3f5f9;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.colorgray {
+    background-color: #f3f5f9;
+}
+
+.colorgray i {
+    color: #0149ff;
+}
+
+.colorgray a {
+    color: #0149ff;
+    font-weight: bold;
+}
+
+.colorgray h2 {
+    color: #939eb5;
+    font-size: 20px;
+}
+
+
+/* NB NB NB ROW WHITE */
+
+.white {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.elenco {
+    background-color: pink;
+    height: 200px;
+}
+
+.imgdescr {
+    background-color: orange;
+    height: 200px;
+    width: 100%;
+    float: left;
+}
+
+.nocolor i {
+    font-size: 30px;
+    color: #0069ff;
 }
