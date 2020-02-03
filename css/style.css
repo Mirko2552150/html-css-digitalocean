@@ -10,18 +10,25 @@ body {
     background-color: white;
 }
 
-.width {
-    margin: 0 auto;
-    max-width: 1170px;
-    position: relative;
-}
-
 /* NB NAVBAR FIX */
 
-.fix {
-    position: fixed;
-    width: 100%;
+header {
     max-width: 1200px;
+}
+
+.navbar {
+    width: 100vw;
+
+
+}
+
+.navbar-header {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100vw;
 }
 
 .navimg {
@@ -33,6 +40,7 @@ body {
     width: 172px;
     height: 29px;
     margin-top: 29px;
+    margin-left: 25px;
 
 }
 
@@ -45,29 +53,33 @@ body {
     margin-left: -10px;
 }
 
-.nav ul {
-    margin-left: 10px;
+#bs-example-navbar-collapse-1 ul {
+    margin-left: 250px;
 }
 
 .navbar-default .navbar-nav>li>a {
     color: #031b4e;
     font-weight: 500;
+    font-size: 14px;
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     height: 65px;
     background-color: white;
+    width: 100vw,
 
 }
 
 .navbar-nav>li>a {
     line-height: 65px;
+
 }
 
 #primobtn {
     margin: 22px;
     border: 1px solid #0049ff;
     color: #0049ff;
+    font-weight: bolder;
 }
 
 @media screen and (min-width: 768px) {
@@ -75,4 +87,41 @@ body {
     .navbar-nav {
         margin-left: 20px;
     }
+}
+
+/* NB NB NB  */
+
+.jumbo {
+    margin-top: 65px;
+    background-color: #0049ff;
+
+}
+
+.jb {
+    margin: 0 auto;
+    background-image: url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1200px;
+}
+
+.formfirst {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#colorwhite {
+    color: white;
+    vertical-align: middle;
+
+}
+
+.titolo h1 {
+    font-size: 62px;
+}
+
+.titolo h4 {
+    font-size: 24px;
 }

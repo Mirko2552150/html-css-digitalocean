@@ -10,33 +10,67 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <nav class="navbar navbar-default ">
-          <div class="container-fluid">
-            <div class="navbar-header width">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <div class="navimg">
-                  <img class="img-responsive" src="https://cdn.freelogovectors.net/wp-content/uploads/2019/01/digitalocean-logo.png" alt="logo">
-              </div>
+        <header>
+            <nav class="navbar navbar-fixed-top">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <div class="navimg">
+                      <img class="img-responsive" src="https://cdn.freelogovectors.net/wp-content/uploads/2019/01/digitalocean-logo.png" alt="logo">
+                  </div>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav">
+                    <li><a href="#">Products<span class="glyphicon glyphicon-chevron-down"></span></a></li>
+                    <li><a href="#">Marketplace<span class="glyphicon glyphicon-chevron-down none"></span></a></li>
+                    <li><a href="#">Costumers<span class="glyphicon glyphicon-chevron-down none"></span></a></li>
+                    <li><a href="#">Partners<span class="glyphicon glyphicon-chevron-down none"></span></a></li>
+                    <li><a href="#">Community<span class="glyphicon glyphicon-chevron-down"></span></a></li>
+                    <li><a href="#">Pricing<span class="glyphicon glyphicon-chevron-down none"></span></a></li>
+                  </ul>
+                  <form class="navbar-form navbar-right">
+                    <button id="primobtn" type="submit" class="btn btn-default primo">Sign Up</button>
+                  </form>
+                </div><!-- /.navbar-collapse -->
+            </nav>
+        </header>
+        <div class="jumbo">
+            <div class="row jb">
+                <div class="col-xs-12 col-sm-12 col-md-6 titolo">
+                    <h1 id="colorwhite" class="text-left"><strong>Welcome to the developer cloud</strong></h1>
+                    <h4 id="colorwhite" class="text-left">We make it simple to launch in the cloud and scale up as you grow – with an intuitive control panel, predictable pricing, team accounts, and more.</h4>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6">
+                    <form class="formfirst">
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                      </div>
+                      <div class="bottombig">
+                        <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
+                      </div>
+                      <div class="line">
+
+                      </div>
+                      <div class="bottomsmall">
+                          <button type="submit" class="btn btn-default">Submit</button>
+                          <button type="submit" class="btn btn-default">Submit</button>
+                      </div>
+                    </form>
+                </div>
             </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav">
-                <li><a href="#">Products<span class="glyphicon glyphicon-chevron-down"></span></a></li>
-                <li><a href="#">Marketplace<span class="glyphicon glyphicon-chevron-down none"></span></a></li>
-                <li><a href="#">Costumers<span class="glyphicon glyphicon-chevron-down none"></span></a></li>
-                <li><a href="#">Partners<span class="glyphicon glyphicon-chevron-down none"></span></a></li>
-                <li><a href="#">Community<span class="glyphicon glyphicon-chevron-down"></span></a></li>
-                <li><a href="#">Pricing<span class="glyphicon glyphicon-chevron-down none"></span></a></li>
-              </ul>
-              <form class="navbar-form navbar-right">
-                <button id="primobtn" type="submit" class="btn btn-default primo">Sign Up</button>
-              </form>
-            </div><!-- /.navbar-collapse -->
-          </div><!-- /.container-fluid -->
-        </nav>
+        </div>
     </body>
 </html>
