@@ -1,0 +1,19 @@
+/* NB PARTI COMUNIC */
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    color: white;
+}
+
+.widht {
+    margin: 0 auto;
+    max-width: 1170px;
+    position: relative;
+}
+
+/* NB NAVBAR FIX */
