@@ -7,7 +7,7 @@
 }
 
 body {
-
+    background-color: white;
 }
 
 /* NB NAVBAR FIX */
@@ -343,3 +343,44 @@ header {
     height: 650px;
     margin: 0 auto;
 }
+
+/*  NB NB NB NB WH */
+
+.bgwh {
+    background-color: white;;
+
+}
+
+.wh {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.wh h4 {
+    padding-top: 50px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.lista {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.lista i {
+    font-size: 30px;
+}
+
+.lista p {
+    font-size: 16px;
+    color: #4e5f83;
+}
+
+.lista strong {
+    font-size: 18px;
+    font-weight: bold;
+    color: #031b4e;
+
+}
+
+/* NB NB NB MAPS */
