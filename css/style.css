@@ -86,13 +86,6 @@ header {
     font-size: 10px;
 }
 
-@media screen and (min-width: 768px) {
-
-    .navbar-nav {
-        margin-left: 20px;
-    }
-}
-
 /* NB NB NB JUMBO  */
 
 .jumbo {
@@ -114,7 +107,7 @@ header {
     padding: 20px;
     border: 1px solid black;
     border-radius: 5px;
-    width: 400px;
+    width: 450px;
     margin-left: 176px;
 }
 
@@ -238,7 +231,6 @@ header {
     font-size: 20px;
 }
 
-
 /* NB NB NB ROW WHITE */
 
 .white {
@@ -355,6 +347,7 @@ header {
 }
 
 .wh {
+    max-width: 1200px;
     margin: 0 auto;
     width: 100%;
 }
@@ -377,12 +370,12 @@ header {
 }
 
 .lista p {
-    font-size: 16px;
+    font-size: 14px;
     color: #4e5f83;
 }
 
 .lista strong {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
     color: #031b4e;
 
@@ -482,7 +475,7 @@ header {
     background-color: #f3f5f9;
 }
 
-.quandrato {
+.quadrato {
     width: 736px;
     height: 100%;
     float: left;
@@ -496,6 +489,10 @@ header {
     float: left;
     line-height: 360px;
     background-color: #f3f5f9;
+}
+
+.glyphicon.glyphicon-chevron-left {
+    transform: translateX(15px);
 }
 
 .lgtpoint {
@@ -555,11 +552,7 @@ header {
     border-bottom: 2px solid #343e53;
 }
 
-.aaa {
-
-}
-
-.aaa strong {
+.ms--li strong {
     font-size: 18px;
 }
 
@@ -594,11 +587,20 @@ header {
     width: 300px;
     height: 50px;
     float: left;
+    line-height: 50px;
 
 }
 
 .fab {
-    margin-left: 5px;
-    font-size: 30px;
+    margin-left: 10px;
+    font-size: 28px;
+    opacity: 0.8;
 
+}
+
+@media screen and (min-width: 768px) {
+
+    .navbar-nav {
+        margin-left: 20px;
+    }
 }
