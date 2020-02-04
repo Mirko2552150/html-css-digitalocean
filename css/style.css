@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: white;
+
 }
 
 /* NB NAVBAR FIX */
@@ -20,10 +20,6 @@ header {
     width: 100vw;
     background-color: white;
     border-bottom: 1px solid black;
-
-}
-
-.nav {
 
 }
 
@@ -86,6 +82,10 @@ header {
     font-weight: bolder;
 }
 
+.glyphicon-chevron-down {
+    font-size: 10px;
+}
+
 @media screen and (min-width: 768px) {
 
     .navbar-nav {
@@ -106,7 +106,6 @@ header {
 
 .jb {
     margin: 0 auto;
-
     max-width: 1200px;
 }
 
@@ -143,7 +142,7 @@ header {
 
 #btnsmall {
     padding: 5px;
-    width: 177px;
+    width: 49%;
     height: 46px;
     background-color: #f2f8ff;
     font-size: 14px;
@@ -190,17 +189,20 @@ header {
 #dim {
     width: 135px;
     height: 77px;
+    object-fit: contain;
 }
 
 #splunk {
     margin-top: 12px;
     width: 160px;
     height: 50px;
+    object-fit: contain;
 }
 
 #github {
     width: 125px;
     height: 77px;
+    object-fit: contain;
 }
 
 .quattro {
@@ -242,21 +244,102 @@ header {
 .white {
     max-width: 1200px;
     margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: white;
+    height: 550px;
 }
 
 .elenco {
-    background-color: pink;
     height: 200px;
+    margin-top: 20px;
+    padding: 15px;
 }
 
 .imgdescr {
-    background-color: orange;
     height: 200px;
     width: 100%;
     float: left;
+    padding: 15px;
+}
+
+.nocolor {
+    margin-bottom: 100px;
 }
 
 .nocolor i {
     font-size: 30px;
     color: #0069ff;
+}
+
+.nocolor p {
+    color: #4e5f83;
+    font-size: 16px;
+}
+
+.nocolor strong {
+    color: #031b4e;
+    font-size: 18px;
+}
+
+.nocolor a {
+    text-decoration: none;
+}
+
+.pri {
+    height: 40px;
+    width: 250px;
+    border-left: 4px solid gray;
+    line-height: 40px;
+}
+
+.pri:hover {
+    border-left: 4px solid red;
+}
+
+.elenconocolor {
+    font-weight: bold;
+    color: #4e5f83;
+    margin-left: 15px;
+}
+
+.imgdescrdue {
+    margin-top: 30px;
+
+}
+
+.imgdescrquattro {
+    margin-top: 30px;
+
+}
+
+/* NB NB NB ROW GRAY SECOND */
+
+.colorgraydue {
+    background-color: #f3f5f9;
+}
+
+.graydue {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 1000px;
+}
+
+.testograydue,
+.imagegraydue,
+.sottotestograydue {
+    margin: 0 auto;
+    height: 100px;
+    margin-top: 50px;
+}
+
+.centrare {
+    margin: 0 auto;
+
+}
+
+.imagegraydue {
+    width: 1000px;
+    height: 650px;
+    margin: 0 auto;
 }
