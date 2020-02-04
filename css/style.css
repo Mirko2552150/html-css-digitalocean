@@ -313,6 +313,10 @@ header {
 
 }
 
+.aria {
+    height: 150px;
+    width: 100%;
+}
 /* NB NB NB ROW GRAY SECOND */
 
 .colorgraydue {
@@ -329,7 +333,6 @@ header {
 .imagegraydue,
 .sottotestograydue {
     margin: 0 auto;
-    height: 100px;
     margin-top: 50px;
 }
 
@@ -363,12 +366,14 @@ header {
 }
 
 .lista {
+
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
 .lista i {
-    font-size: 30px;
+    font-size: 35px;
+    color: blue;
 }
 
 .lista p {
@@ -384,3 +389,216 @@ header {
 }
 
 /* NB NB NB MAPS */
+
+.bgmaps {
+    background-color: #031b4e;
+}
+
+.maps {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.maps p,h1,h2,h3,h4,i {
+    color: white;
+}
+
+.maps h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.ms--pad {
+    height: 280px;
+    padding: 0;
+
+}
+
+.ctbig {
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 5px;
+
+}
+
+.ctmedium {
+    width: 100%;
+    height: 16.66%;
+    border-bottom: 1px solid #354971;
+}
+
+.ctsmall {
+    height: 100%;
+    float: left;
+    line-height: 45.5px;
+}
+
+.f {
+    padding-left: 5px;
+    width: 15%;
+}
+
+.s {
+    width: 65%;
+}
+
+.l {
+    width: 20%;
+}
+
+.row h2 {
+    margin-top: 50px;
+}
+
+/*  NB NB NB LGT */
+
+.lgtgr {
+    background-color: #f3f5f9;
+}
+
+.lgt {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.lgtquadrato {
+    margin: 0 auto;
+    width: 836px;
+    height: 360px;
+    background-color: white;
+}
+
+.lgtquadrato span {
+    font-size: 35px;
+}
+
+.lgticonuno {
+    width: 50px;
+    height: 100%;
+    float: left;
+    line-height: 360px;
+    background-color: #f3f5f9;
+}
+
+.quandrato {
+    width: 736px;
+    height: 100%;
+    float: left;
+    border: 1px solid #e5e8ed;
+
+}
+
+.lgticondue {
+    width: 50px;
+    height: 100%;
+    float: left;
+    line-height: 360px;
+    background-color: #f3f5f9;
+}
+
+.lgtpoint {
+    width: 100%;
+    height: 50px;
+}
+
+.record {
+    width: 100px;
+    margin: 0 auto;
+}
+
+.lgtpoint span {
+    margin-top: 2px;
+    padding: 2px;
+
+}
+
+/* NB NB NB GET */
+
+.getstarted {
+    background-image: url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
+}
+
+.get {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.buttonget {
+    width: 250px;
+    margin: 0 auto;
+}
+
+.textget h2 {
+    font-size: 30px;
+}
+
+.textget {
+    padding-top: 100px;
+}
+
+
+/* NB NB NB FOOTER */
+
+.dblu {
+    background-color: #010e28;
+}
+
+.foot {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.foote {
+    border-bottom: 2px solid #343e53;
+}
+
+.aaa {
+
+}
+
+.aaa strong {
+    font-size: 18px;
+}
+
+.pie {
+
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.footsx {
+    width: 50%;
+    height: 50px;
+    float: left;
+}
+
+.footdx {
+    width: 50%;
+    height: 50px;
+    float: left;
+    line-height: 50px;
+}
+
+.footsx img {
+    width: 50px;
+    height: 50px;
+    float: left;
+
+}
+
+.register {
+    width: 300px;
+    height: 50px;
+    float: left;
+
+}
+
+.fab {
+    margin-left: 5px;
+    font-size: 30px;
+
+}
