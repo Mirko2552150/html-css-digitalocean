@@ -418,6 +418,9 @@ header {
 
 .bgmaps {
     background-color: #031b4e;
+    background-image: url("https://i.ytimg.com/vi/EBkbV1SIJtI/maxresdefault.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .maps {
@@ -633,7 +636,7 @@ header {
 
 .fab {
     margin-left: 10px;
-    font-size: 20px;
+    font-size: 18px;
     opacity: 0.8;
 
 }
