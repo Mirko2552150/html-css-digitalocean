@@ -30,11 +30,6 @@ body {
     color: #939ebf;
 }
 
-#bdl {
-    font-weight: bold;
-
-}
-
 /* NB NAVBAR FIX */
 
 header {
@@ -638,10 +633,46 @@ header {
     opacity: 0.8;
 
 }
-
+/*VERSIONE MOBILE */
 @media screen and (min-width: 768px) {
 
     .navbar-nav {
         margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        border-bottom: none;
+    }
+
+    .icon-bar {
+        color: black;
+        background-color: black;
+    }
+
+    .titolo h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .titolo h4 {
+        text-align: center;
+    }
+
+    .formfirst {
+        margin: 0 auto;
+    }
+
+    .navimg img {
+        margin-top: 10px;
+    }
+
+    .lista {
+        padding: 40px;
+    }
+
+    .ms--pad {
+        padding: 8px;
     }
 }
