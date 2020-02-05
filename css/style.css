@@ -14,6 +14,13 @@ body {
     color: #031b4e;
 }
 
+#clrdrkbbis {
+    font-size: 36px;
+    color: #031b4e;
+    font-weight: bold;
+
+}
+
 #clrbl {
     color: #0069ff;
 }
@@ -267,6 +274,10 @@ header {
 
 .nocolor {
     margin-bottom: 100px;
+}
+
+.nocolor h2 {
+    font-size: 36px;
 }
 
 .nocolor i {
@@ -674,5 +685,20 @@ header {
 
     .ms--pad {
         padding: 8px;
+    }
+
+    .ms--li {
+        padding: 10px;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .register p {
+        font-size: 10px;
+        margin-left: 5px;
+    }
+
+    .footdx p {
+        margin-right: 5px;
     }
 }
