@@ -358,6 +358,10 @@ header {
     margin-top: 50px;
 }
 
+.testograydue {
+    height: 166px;
+}
+
 .centrare {
     margin: 0 auto;
 
@@ -700,5 +704,63 @@ header {
 
     .footdx p {
         margin-right: 5px;
+    }
+
+    .imagegraydue {
+        width: 500px;
+        margin: 0 auto;
+        height: auto;
+    }
+
+    .imagegraydue img {
+        width: 500px;
+
+    }
+
+    .graydue {
+        height: auto;
+    }
+
+    .jumbo {
+        margin-top: 50px;
+
+    }
+
+    .elenco {
+        margin-bottom: 10px;
+    }
+
+    .lgtquadrato {
+        width: 500px;
+    }
+
+    .quadrato{
+        width: 400px;
+    }
+
+    .lgticonuno {
+        width: 50px;
+    }
+
+    .lgticondue {
+        width: 50px;
+    }
+
+    .textget {
+        padding-top: 0;
+    }
+
+    .aria {
+        height: 50px;
+    }
+
+    /* TRICK.
+    l'altezza dovrebbe essere data dai DIV non inserita manualmente */
+    .nocolor {
+        margin-bottom: 365px;
+    }
+
+    nav {
+        position: relative;
     }
 }
